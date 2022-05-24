@@ -7,9 +7,6 @@ export const Container = styled.div`
   margin-top: 24px;
   border-radius: 24px;
 
-  @media (max-width: 800px) {
-    background: #d2d2d2;
-  }
 `;
 
 export const ContainerList = styled.div`

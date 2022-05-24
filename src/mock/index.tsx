@@ -21,10 +21,24 @@ export const mockList = [
     founded: "July 2002",
   },
   {
-    company: "Devs",
-    ceo: "Vitor",
-    cfo: "Silva",
-    revenue: "1.1 billion USD",
+    company: "ICBC",
+    ceo: "Shu Gu",
+    cfo: "Yi Huiman",
+    revenue: "345.1 billion USD",
+    founded: "March 1985",
+  },
+  {
+    company: "JPMorgan",
+    ceo: "Jamie Dimon",
+    cfo: "Daniel E. Pinto",
+    revenue: "122.1 billion USD",
+    founded: "March 1995",
+  },
+  {
+    company: "Apple",
+    ceo: "Tim Cook",
+    cfo: "Steve Jobs",
+    revenue: "234.1 billion USD",
     founded: "March 2025",
   },
 ];

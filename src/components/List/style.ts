@@ -1,19 +1,60 @@
 import styled from "styled-components";
 
-import { TypesThisComp } from "./types";
-
 export const Container = styled.div`
-    margin: auto;
-    padding: 24px;
-    border: 3px solid #d2d2d2;
+  text-align: center;
+  background: #d2d2d2;
+  padding: 24px;
+  margin-top: 24px;
+  border-radius: 24px;
+
+  @media (max-width: 800px) {
+    background: #d2d2d2;
+  }
+`;
+
+export const ContainerList = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  @media (max-width: 1280px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (max-width: 800px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const ContentList = styled.div`
-    padding: 24px;
-    border: 1px solid;
-    margin-bottom: 24px;
+  width: 300px;
+  background: #ffffff;
+  border-radius: 12px;
+  text-align: center;
+  padding: 24px;
 `;
 
-export const P = styled.p<TypesThisComp>`
-  font-size: ${({ size }) => (size ? size : '1')}rem;
+export const ContentCompany = styled.div`
+  border-bottom: 2px solid; 
+  text-align: center;
 `;
+
+export const ContentCeoAndCfo = styled.div`
+  display: flex; 
+  justify-content: space-around; 
+  text-align: center;
+`;
+
+export const ContentRevenueAndFounded = styled.div`
+  display: grid; 
+  grid-template-columns: 1fr; 
+  align-items: center;
+`;
+
+export const Span = styled.span`
+  font-size: 22px; 
+  font-weight: 600;
+`;
+
